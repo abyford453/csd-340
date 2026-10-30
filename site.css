@@ -1,0 +1,52 @@
+/*
+    Student: Drew Byford
+    Date: October 30, 2026
+    Assignment: 3.3 - GitHub Pages Landing Page
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #F4F6F9;
+    color: #263C59;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #263C59;
+    color: #FFFFFF;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #355C85;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #684C89;
+}
+
+a:hover {
+    color: #B07B00;
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 10px;
+}
