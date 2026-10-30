@@ -1,0 +1,87 @@
+/*
+    Student: Drew Byford
+    Date: October 30, 2026
+    Assignment: 3.3 - Build a Web Page Exercise, Part 3
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #263C59;
+    background-color: #F4F6F9;
+}
+
+#container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#books, #lessons {
+    width: 45%;
+}
+
+h3 {
+    font-weight: 500;
+    padding: 10px;
+}
+
+ol {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#books h3, #books ol {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+#lessons h3, #lessons ol {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+#lessons ol {
+    list-style-type: upper-roman;
+}
+
+li {
+    padding: 5px;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+#bottom a {
+    float: right;
+}
+
+a {
+    color: #355C85;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #684C89;
+}
+
+a:hover {
+    color: #B07B00;
+    text-decoration: underline;
+}
